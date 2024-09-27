@@ -1,0 +1,16 @@
+.container {
+    border: 1px solid var(--info-400);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: var(--info-50);
+}
+.container > p {
+    color: var(--info-900);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.infoIcon {
+    color: var(--info-900);
+    font-size: 1.2rem;
+}

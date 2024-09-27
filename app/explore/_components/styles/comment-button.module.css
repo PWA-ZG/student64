@@ -1,0 +1,31 @@
+.button {
+    background-color: var(--brand-500);
+    border: 1px solid var(--brand-600);
+    border-radius: var(--border-radius);
+    width: fit-content;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.button > span {
+    font-weight: 600;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    color: #f8fafc;
+    font-size: 1rem;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: var(--brand-600);
+    border-color: var(--brand-700);
+}
+.button:disabled {
+    background-color: var(--brand-300);
+    border-color: var(--brand-400);
+    cursor: not-allowed;
+}
+.commentIcon {
+    color: #f8fafc;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.3));
+}
